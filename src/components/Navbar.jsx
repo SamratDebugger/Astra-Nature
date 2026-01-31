@@ -1,12 +1,13 @@
+import { Link } from "react-router";
 import NavMenus from "./NavMenus";
 
 export default function Navbar() {
   return (
     <div className="navbar max-w-360 mx-auto p-5">
       <div className="flex-1">
-        <a href="/" className="">
+        <Link to="/" className="">
           <img className="" src="/assets/img/logo-white.svg" alt="logo" />
-        </a>
+        </Link>
       </div>
       <div className="  md:flex-none hidden lg:block  ">
         <ul className="menu menu-horizontal px-1 gap-5 text-white">

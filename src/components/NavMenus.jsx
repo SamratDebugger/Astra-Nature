@@ -1,17 +1,19 @@
+import { NavLink } from "react-router";
+
 export default function NavMenus() {
   return (
     <>
       <li>
-        <a>Home</a>
+        <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <a>About</a>
+        <NavLink to="/about">About</NavLink>
       </li>
       <li>
-        <a>Services</a>
+        <NavLink to="/services">Services</NavLink>
       </li>
       <li>
-        <a>Contact</a>
+        <NavLink to="/contact">Contact</NavLink>
       </li>
     </>
   );

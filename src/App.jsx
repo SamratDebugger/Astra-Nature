@@ -1,18 +1,19 @@
-import Avatar from "./Avatar";
-import About from "./components/About";
-import BackgroundImg from "./components/BackgroundImg";
+import { Route, Routes } from "react-router";
 import Footer from "./components/Footer";
-import Question from "./components/Question";
-import Services from "./components/Services";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <>
-      <BackgroundImg />
-      <Services />
-      <Avatar />
-      <About />
-      <Question />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
     </>
   );

@@ -1,3 +1,4 @@
+import Mission from "../components/about/Mission";
 import Result from "../components/about/result";
 import BackgroundImg from "../components/BackgroundImg";
 
@@ -8,6 +9,7 @@ export default function About() {
         <h1 className="text-white text-8xl font-medium ">about us</h1>
       </BackgroundImg>
       <Result />
+      <Mission />
     </>
   );
 }

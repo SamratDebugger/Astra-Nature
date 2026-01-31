@@ -1,15 +1,12 @@
-export default function Card() {
+export default function Card({ content }) {
   return (
     <div className="card ">
-      <div className="mx-auto">
-        <img src="/public/assets/img/service-1.jpg" alt="Card-1" />
-      </div>
+      <figure>
+        <img className="w-full" src={content.image} alt={content.title} />
+      </figure>
       <div className="card-body">
-        <h2 className="card-title">Web Design</h2>
-        <p>
-          Focus on how you can help and benefit your user. Use simple words so
-          that you don't confuse people.
-        </p>
+        <h2 className="card-title">{content.title}</h2>
+        <p>{content.description}</p>
       </div>
     </div>
   );

@@ -25,10 +25,10 @@ export default function Services() {
     },
   ];
   return (
-    <div className="max-w-360 py-20 mx-auto">
+    <div className="max-w-360 my-20 mx-auto p-5">
       <h2 className="text-center text-4xl">Our Services</h2>
       <div className="divider divider-warning w-20 mx-auto"></div>
-      <div className="grid grid-cols-3 gap-10 ">
+      <div className="grid md:grid-cols-3 gap-10 ">
         {cardObj.map((c) => (
           <Card key={c.id} content={c} />
         ))}

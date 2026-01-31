@@ -16,18 +16,18 @@ export default function Footer() {
     //     <p>Love Nature by Tyler Moore</p>
     //   </aside>
     // </footer>
-    <footer className="navbar  py-10 max-w-360 mx-auto">
-      <div className="navbar-start">
+    <footer className="navbar px-5  py-10 max-w-360 mx-auto flex-col md:flex-row max-md:gap-5">
+      <div className="navbar-start max-md:w-auto">
         <ul className="menu menu-horizontal px-1">
           <NavMenus />
         </ul>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center  lg:flex">
         <a>
           <img src="/assets/img/logo-green.svg" alt="logo green" />
         </a>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end max-md:w-auto ">
         <p>Love Nature by Tyler Moore</p>
       </div>
     </footer>

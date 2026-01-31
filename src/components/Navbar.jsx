@@ -5,11 +5,7 @@ export default function Navbar() {
     <div className="navbar max-w-360 mx-auto p-5">
       <div className="flex-1">
         <a href="/" className="">
-          <img
-            className=""
-            src="/public/assets/img/logo-white.svg"
-            alt="logo"
-          />
+          <img className="" src="/assets/img/logo-white.svg" alt="logo" />
         </a>
       </div>
       <div className="  md:flex-none hidden lg:block  ">

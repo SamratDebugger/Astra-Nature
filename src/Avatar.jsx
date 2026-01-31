@@ -10,7 +10,7 @@ export default function Avatar() {
         <div className="flex justify-center items-center flex-col mt-5">
           <div className="avatar">
             <div className=" ring-offset-base-100 w-15 rounded-full ">
-              <img src="/public/assets/img/avatar_on_home.png" />
+              <img src="/assets/img/avatar_on_home.png" />
             </div>
           </div>
           <p>Jane Miller</p>

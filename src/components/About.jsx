@@ -22,7 +22,7 @@ export default function About() {
     <div className="hero max-w-360 mx-auto place-items-stretch py-10">
       <div className=" gap-15 hero-content max-w-full flex-col lg:flex-row-reverse justify-between p-5  ">
         <img
-          src="/public/assets/img/about-img.jpg"
+          src="/assets/img/about-img.jpg"
           alt="leaf"
           className="lg:max-w-sm w-full"
         />

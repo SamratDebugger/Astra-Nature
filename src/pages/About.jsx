@@ -1,5 +1,6 @@
 import Mission from "../components/about/Mission";
 import Result from "../components/about/result";
+import Testimonials from "../components/about/Testimonials";
 import BackgroundImg from "../components/BackgroundImg";
 
 export default function About() {
@@ -10,6 +11,7 @@ export default function About() {
       </BackgroundImg>
       <Result />
       <Mission />
+      <Testimonials />
     </>
   );
 }

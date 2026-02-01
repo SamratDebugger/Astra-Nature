@@ -1,6 +1,6 @@
 export default function Mission() {
   return (
-    <section className="max-w-360 mx-auto px-5">
+    <section className="max-w-360 mx-auto px-5 my-10">
       <div>
         <img
           className="mx-auto w-full"

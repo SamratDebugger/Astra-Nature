@@ -5,8 +5,12 @@ export default function Navbar() {
   return (
     <div className="navbar max-w-360 mx-auto p-5">
       <div className="flex-1">
-        <Link to="/" className="">
-          <img className="" src="/assets/img/logo-white.svg" alt="logo" />
+        <Link to="/" className=" ">
+          <img
+            className="max-w-15"
+            src="/assets/img/logo-white.svg"
+            alt="logo"
+          />
         </Link>
       </div>
       <div className="  md:flex-none hidden lg:block  ">

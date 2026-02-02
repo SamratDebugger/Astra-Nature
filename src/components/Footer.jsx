@@ -24,7 +24,11 @@ export default function Footer() {
       </div>
       <div className="navbar-center  lg:flex">
         <a>
-          <img src="/assets/img/logo-green.svg" alt="logo green" />
+          <img
+            className="max-w-15"
+            src="/assets/img/logo-green.svg"
+            alt="logo green"
+          />
         </a>
       </div>
       <div className="navbar-end max-md:w-auto ">

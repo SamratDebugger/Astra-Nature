@@ -17,9 +17,11 @@ export default function Navbar() {
         <ul className="menu menu-horizontal px-1 gap-5 text-white">
           <NavMenus />
         </ul>
-        <button className="btn btn-outline border-white text-white ml-5">
-          202-555-0188
-        </button>
+        <Link to="/registration">
+          <button className="btn btn-outline border-white text-white ml-5">
+            Account
+          </button>
+        </Link>
       </div>
       <div className="lg:hidden">
         <div className="dropdown dropdown-bottom dropdown-end ">

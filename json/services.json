@@ -3,7 +3,7 @@
     "id": 0,
     "img": "/assets/img/service-1.jpg",
     "title": "Web Design",
-    "description": "Tell your visitor how your service can improve their life. Connect with the problem that they&apos;re trying to solve and address any objections you think they might have",
+    "description": "Tell your visitor how your service can improve their life. Connect with the problem that they're trying to solve and address any objections you think they might have",
     "shortDescription": "What is the biggest benefit your customer will get from this? Keep your target audience in mind",
     "price": 99
   },
@@ -11,7 +11,7 @@
     "id": 1,
     "img": "/assets/img/service-2.jpg",
     "title": "Graphic Design",
-    "description": "Tell your visitor how your service can improve their life. Connect with the problem that they&apos;re trying to solve and address any objections you think they might have",
+    "description": "Tell your visitor how your service can improve their life. Connect with the problem that they're trying to solve and address any objections you think they might have",
     "shortDescription": "What is the biggest benefit your customer will get from this? Keep your target audience in mind",
     "price": 199
   },
@@ -19,7 +19,7 @@
     "id": 2,
     "img": "/assets/img/service-3.jpg",
     "title": "Content Creation",
-    "description": "Tell your visitor how your service can improve their life. Connect with the problem that they&apos;re trying to solve and address any objections you think they might have",
+    "description": "Tell your visitor how your service can improve their life. Connect with the problem that they're trying to solve and address any objections you think they might have",
     "shortDescription": "What is the biggest benefit your customer will get from this? Keep your target audience in mind",
     "price": 299
   }

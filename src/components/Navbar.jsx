@@ -18,7 +18,7 @@ export default function Navbar() {
           <NavMenus />
         </ul>
         <Link to="/registration">
-          <button className="btn btn-outline border-white text-white ml-5">
+          <button className="btn btn-outline border-white text-white ml-5 hover:text-warning">
             Account
           </button>
         </Link>

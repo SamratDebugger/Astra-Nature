@@ -8,7 +8,7 @@ export default function Registration() {
         <h1 className="text-white text-7xl font-medium ">Registration</h1>
       </BackgroundImg>
       <section className="m-5">
-        <UserForm />
+        <UserForm isLogin={false} />
       </section>
     </main>
   );

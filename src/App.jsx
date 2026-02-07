@@ -8,6 +8,7 @@ import Registration from "./pages/auth/Registration";
 import Login from "./pages/auth/Login";
 import Dashboard from "./pages/Dashboard";
 import { ToastContainer } from "react-toastify";
+import ProtecttedRoute from "./components/ProtecttedRoute";
 
 function App() {
   return (
@@ -20,7 +21,14 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />}></Route>
         <Route path="/registration" element={<Registration />}></Route>
-        <Route path="/dashboard" element={<Dashboard />}></Route>
+        <Route
+          path="/dashboard"
+          element={
+            <ProtecttedRoute>
+              <Dashboard />
+            </ProtecttedRoute>
+          }
+        ></Route>
       </Routes>
       <Footer />
     </>
